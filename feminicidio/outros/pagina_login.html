@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>DIMC - Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: #ECB2F5;
+        }
+
+        .cabecalho {
+
+            background-color: rgba(238, 31, 193, 0.788);
+        }
+
+        .logo {
+            margin-right: auto;
+            float: left;
+            width: 11%;
+            height: 13%;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        button.login {
+            color: white;
+            background-color: rgb(189, 15, 53);
+            box-shadow: 0 3px 0 rgb(197, 78, 102);
+            margin-left: auto;
+            display: block;
+            cursor: pointer;
+        }
+
+        button.login:hover {
+            background-color: rgb(226, 82, 111);
+            box-shadow: 0 3px 0 rgb(197, 78, 102);
+        }
+
+        button.login:active {
+            position: relative;
+            top: 4px;
+        }
+
+        .main {
+            display: flex;
+
+            width: 100%;
+        }
+
+        button.menu {
+            width: 145%;
+            background-color: rgb(255, 255, 255);
+            display: block;
+            cursor: pointer;
+        }
+
+        .menu {
+            float: left;
+            width: 250px;
+
+
+        }
+
+        button.menu {
+            width: 250px;
+            background-color: rgb(255, 255, 255);
+            display: block;
+            cursor: pointer;
+
+        }
+
+        .u {
+            border-radius: 0 0px 30px 0;
+        }
+
+        .i {
+            border-radius: 0 30px 0px 0;
+        }
+
+        button.menu:hover {
+            background-color: rgb(221, 216, 216);
+        }
+
+        button.menu:active {
+            position: relative;
+            top: 1px;
+        }
+
+        .cadastro {
+            margin-left: 25%;
+            float: right;
+
+        }
+
+        input {
+            width: 400px;
+            height: 30px;
+        }
+
+        input[type=reset] {
+            width: auto;
+            color: white;
+            background-color: rgba(165, 9, 131, 0.788);
+            box-shadow: 0 3px 0 rgb(197, 78, 102);
+            height: 30px;
+        }
+
+        input[type=submit] {
+            width: auto;
+            color: white;
+            background-color: rgba(165, 9, 131, 0.788);
+            box-shadow: 0 3px 0 rgb(197, 78, 102);
+            height: 30px;
+        }
+
+        .anuncio {
+            background-color: rgb(190, 189, 189);
+            margin-right: 150px;
+            float: right;
+            height: 180px;
+            width: 200px;
+
+
+        }
+
+        .x {
+            display: inline-block;
+        }
+
+        .x {
+
+            float: right;
+            border-radius: 100px;
+            background-color: black;
+            color: rgb(150, 140, 140);
+            width: 25px;
+            height: 25px;
+            margin-right: 0px;
+            margin-top: -10px;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .main {
+                display: wrap;
+                flex-wrap: wrap;
+
+            }
+
+            .menu {
+                width: 100%;
+            }
+
+            button.menu {
+                width: 100%;
+                border-radius: 0 0px 0px 0;
+            }
+
+            .logo {
+                width: 28%;
+
+            }
+
+            .cadastro {
+                margin-left: 50px;
+            }
+
+            input {
+                width: 300px;
+            }
+
+            h1 {
+                font-size: 30px;
+                margin-right: 15%;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-size: 18px;
+                margin-left: 40px;
+            }
+
+            h5 {
+                font-size: 15px;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        function ad1(algo) {
+            algo.style.border = "3px solid blue";
+        }
+
+
+        function rm1(algo) {
+            algo.style.border = "none";
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="cabecalho">
+
+        <img class="logo" src="../outros/logo.jpg">
+        <button class="login">
+            <center><a href="../outros/pagina_login.html" style="text-decoration:none">
+                    <font color="white" face="Salsa" size="4"><b>LOGIN</b></font>
+                </a></center>
+        </button>
+        <br>
+        <center margin-right="70%">
+            <h1>
+                <font face="cambria">
+                    Compre sua maquiagem aqui!
+                </font>
+            </h1>
+            <H4>
+                <font face="cambria">
+                    <a href="../codigo_feminicidio.html" style="text-decoration:none">
+                        <font color="black">HOME | <a href="../outros/saiba_Mais.html" style="text-decoration:none">
+                                <font color="black">SAIBA MAIS</font>
+                            </a>
+                        </font>
+            </H4>
+        </center>
+        <hr color="#000000">
+    </div>
+    <div class="main">
+        <div class="menu">
+
+            <button class="menu i">
+                <center>
+                    <font face="Salsa" size="6"><b>MENU</b></font>
+                </center></br>
+                <button class="menu">
+                    <center>
+                        <font face="Salsa" size="5">PELE</font>
+                    </center></br>
+                    <button class="menu">
+                        <center>
+                            <font face="Salsa" size="5">LÁBIOS</font>
+                        </center></br>
+                        <button class="menu">
+                            <center>
+                                <font face="Salsa" size="5">OLHOS</font>
+                            </center></br>
+                            <button class="menu">
+                                <center>
+                                    <font face="Salsa" size="5">CÍLIOS</font>
+                                </center></br>
+                                <button class="menu">
+                                    <center>
+                                        <font face="Salsa" size="5">PINCÉIS</font>
+                                    </center></br>
+                                    <button class="menu">
+                                        <center>
+                                            <font face="Salsa" size="5">LIMPEZA</font>
+                                        </center></br>
+                                        <button class="menu u">
+                                            <center>
+                                                <font face="Salsa" size="5">MÁSCARA</font>
+                                            </center>
+                                        </button></br>
+
+                                        <br>
+        </div>
+        <div class="cadastro">
+            <center>
+                <BR>
+                <CENTER>
+                    <h3><b>
+                            <font face="Arial">CADASTRE-SE AQUI</font>
+                    </h3>
+                </CENTER>
+                <form action="obrigado.html" action="https://api.staticforms.xyz/submit" method="POST" name="form">
+                    <input type="hidden" name="accessKey" value="f6744361-bbb9-4106-8fda-75cc2ae8f99e">
+                   
+
+
+                    <font face="Arial">
+                        <br>
+                        <h6>DiGITE SEU NOME:<br>
+
+                            <div><td><input type="text" name="name"  id="elemen" required onfocus="ad1(this)" onblur="rm1(this)"></td></div>
+                            <h6>ONDE MORA:<br>
+                                <td><input type="text" name=message required></td>
+                                <h6>DATA DE NASCIMENTO:<br>
+                                    <td><input type="text" name=phone required>
+                                    <td>
+                                        <h6>E-MAIL: <br>
+                                    <td><input type="text" name=email required></td>
+                                    <h6>CRIE SUA SENHA:<br>
+                                        <td><input type="password" name=senha required></td>
+                                        <h6>CONFIRME SUA SENHA: <br>
+                                            <td><input type="password" name=confirmacaosenha required></td>
+                                            <input type="text" name="honeypot" style="display: none;">
+                                        </h6>
+                    </FONT>
+                    <input type=reset name=nome value="Limpar">
+                    <input type=submit name=nome value="Cadastrar"
+                        onclick="confirm('Tem certeza que deseja continuar?');vazio()" action="obrigado.html">
+
+                </form>
+                <center>
+                    <font face="Arial">
+                        <BR>
+                        <h6>JÁ TEM CADASTRO?
+                            <BR><a href="pagina_login_cadastrado.html" style="text-decoration:none">
+                                <font color="#881111">FAÇA SEU LOGIN</font>
+                            </a>
+                        </H6>
+                    </font>
+                </CENTER>
+            </center>
+
+        </div>
+        <br>
+
+    </div>
+    <h9 class="anuncio">
+        <CENTER>
+            <x class="x">x</x>
+        </CENTER>
+        <center>VOCÊ SABIA?<BR><br>Xingamento, humilhação
+            dominação, recriminação
+            e\ou constranjimento
+            podem ser considerados
+            abuso psicológico.<br>
+    </h9>
+    </CENTER>
+
+</body>
+
+</html>

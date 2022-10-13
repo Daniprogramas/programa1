@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Pagamento</title>
+    <style>
+        body {
+            background-color: #E7BEEE;
+        }
+
+        .main {
+
+            width: 100%;
+            margin: 0px;
+        }
+
+        .c1 {
+            Float: left;
+            margin-left: 40%;
+            margin-top: 1%;
+        }
+
+        .c2 {
+            margin-left: 45%;
+        }
+
+        .c3 {
+            Float: left;
+            margin-top: -100px;
+            margin-left: 110px;
+        }
+
+        .imagem {
+            background-image: url("../itens_gerais/cartao.jpeg");
+            background-size: cover;
+            background-color: white;
+            border-radius: 100px;
+            border: solid 4px;
+            border-color: #e701b5c7;
+            width: 100px;
+            height: 100px;
+        }
+
+        .bordabarra {
+            border: solid 3px;
+            border-color: rgb(150, 140, 140);
+            background-color: rgb(150, 140, 140);
+
+            width: 160px;
+        }
+
+        .bordascirculo {
+            background-color: white;
+            border-radius: 100px;
+            border: solid 4px;
+            border-color: rgb(150, 140, 140);
+            width: 100px;
+            height: 100px;
+        }
+
+        .bordas {
+            color: black;
+            background-color: white;
+            border: solid 2px;
+            border-color: black;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            width: 40%;
+
+        }
+
+        .continuar {
+            color: rgb(255, 255, 255);
+            background-color: #e701b5c7;
+            box-shadow: 03px 0 rgb(197, 78, 102);
+            display: block;
+            cursor: pointer;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: auto;
+            font-size: 20px;
+        }
+
+        .continuar:hover {
+            background-color: rgb(226, 82, 111);
+            box-shadow: 0 3px 0 rgb(197, 78, 102);
+        }
+
+        .continuar:active {
+            position: relative;
+            top: 4px;
+        }
+
+        .campo {
+            color: red;
+        }
+
+        .anuncio {
+            background-color: rgb(197, 194, 194);
+            width: 270px;
+            height: 180px;
+            margin-left: 20px;
+            margin-top: +30px;
+            font-size: 20px;
+        }
+
+        .x {
+            display: inline-block;
+        }
+
+        .x {
+
+            float: left;
+            border-radius: 100px;
+            background-color: black;
+            color: rgb(150, 140, 140);
+            width: 25px;
+            height: 25px;
+            margin-left: 210px;
+            margin-top: -10px;
+            font-size: 20px;
+        }
+        @media only screen and (max-width: 1200px) {
+            .c2 {
+                margin-left: 500px;
+                
+            }
+        }
+        @media only screen and (max-width: 1000px) {
+            .desenho{
+                margin-left: -15%;
+            }
+            .c2 {
+                margin-left: 430px;
+               
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .bordas {
+                position: wrap;
+                align-items: center;
+                width: 70%;
+            }
+
+            .desenho {
+                margin-left: -35%;
+            }
+
+            .bordascirculo {
+
+                width: 80px;
+                height: 80px;
+            }
+
+            .imagem {
+
+                width: 80px;
+                height: 80px;
+            }
+
+            .bordabarra {
+
+                width: 100px;
+            }
+
+            .c1 {
+                Float: left;
+                margin-left: 40%;
+                margin-top: -10px;
+            }
+
+            .c2 {
+                margin-top: -8%;
+                margin-left: 54%;
+            }
+
+            .c3 {
+                Float: left;
+                margin-top: -83px;
+                margin-left: 90px;
+            }
+
+        }
+    </style>
+    <script type="text/javascript">
+        function ad1(x){
+            x.style.border = "5px solid black";
+        }
+        function rm1(x){
+            x.style.border = "none";
+        }
+        function continuar(){
+            var b = document.getElementById('algo');
+            if(b.value == ""){
+                b.style.border = "5px solid red";
+                
+            }
+            else{
+                window.location.href="confirmacao7.html";
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+
+
+    <div class="main">
+        <div class="desenho">
+            <br>
+            <div class="c1">
+                <br>
+                <br>
+                <p class="imagem">
+            </div>
+            <div class="c2">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="bordabarra">
+            </div>
+            <div class="c3">
+                <br>
+                <p class="bordascirculo">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <h2 class="w-100 p-1">
+                <font size="7">
+                    Identificação
+                </font>
+
+            </h2>
+        </center>
+        <center>
+            <p class="w-75 p-3">
+
+                <font size="5">
+                    O pagamento vai ser realizado via boleto. <br>
+                    Digite o seu email, para finalizar a compra.
+                </font>
+            </p>
+        </center>
+        <form>
+            <center>
+                <div class="email"><input type="text" class="bordas" name="mensagem" id="algo" placeholder="seu@email.com" onfocus="ad1(this)" onblur="rm1(this)"></div>
+
+                            <input type=button name=nome class="continuar"value="Continuar" onclick="continuar();" >
+                           
+            </center>
+            <center>
+                <p class="campo"><b>Campo Obrigatório*</b></p>
+            </center>
+        </form>
+
+    </div>
+
+    <h4 class="anuncio">
+        <center>
+            <x class="x">x</x>
+        </center><br>
+        <center>Viviam como se aquilo<br> fosse normal.<br>
+            Até perceberem que não.<br> Apanhar todos os dias<br> Justificativa que tinham feito<br> algo de errado não era certo.<br></center>
+    </h4>
+    </div>
+
+</body>
+
+</html>
